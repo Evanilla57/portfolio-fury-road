@@ -5,7 +5,7 @@ export default function Portfolio() {
     // Renders projects, passes imported data as a prop to the Project component
     return (
         <>
-            <h1>Portfolio</h1>
+            <h2>Portfolio</h2>
             <Project data={data} />
         </>
     );

@@ -18,17 +18,29 @@ header h1 {
 }
 
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    padding-bottom: 20px;
-    float: right;
-    font-size: 21px;
-    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 14px;
+    background-color: var(--dark);
+    text-align: end;
 }
 
-nav li {
+nav ul {
+    position: relative;
+    right: 50px;
+}
+
+nav ul li {
     display: inline;
-    margin-left: 25px;
+}
+
+nav ul li a {
+    color: var(--font-color);
+    font-size: 20px;
+    padding: 7px;
+    font-family: var(--font-fam);
+    text-decoration: none;
 }
 
 .grow {
@@ -45,6 +57,12 @@ figure {
     text-align: left;
 }
 
+figure img {
+    height: 350px;
+    width: 275px;
+    border-radius: 100%;
+}
+
 #avatar {
     height: 350px;
     width: 275px;
@@ -55,23 +73,87 @@ figure {
 /* Styling for content within Body */
 
 main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+main section {
+    margin: 2% 5%;
+    line-height: 2rem;
+}
+
+main section h2 {
+    font-size: 32px;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+main section h3 {
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+main section h4 {
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+main section p, li {
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+main section ul {
+    list-style: inside;
+    list-style-position: unset;
+}
+
+main {
     flex-wrap: wrap;
     display: flex;
 }
 
-main h2 {
+h1 {
+    font-size: 4rem;
+    font-family: var(--impact);
+    margin: 4% 0 2% 5%;
+}
+
+h2 {
+    font-size: 32px;
     margin: auto;
 }
 
-#about-me p {
-    width: 40%;
+h3 {
+    font-size: 28px;
     margin: auto;
-    padding: 20px;
 }
 
-#contact-info {
-    margin: auto;
+main section {
+    margin: 2% 5%;
+    line-height: 2rem;
 }
+
+main section h2,
+h3 {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+main section ul {
+    list-style: inside;
+    list-style-position: unset;
+}
+
 
 #my-apps {
     display: flex;
@@ -95,7 +177,7 @@ main h2 {
 .project h3 {
     padding: 10px;
     background: #060606;
-    color: #fff;
+    color: #000000;
 }
 
 .project-img {
@@ -107,87 +189,70 @@ main h2 {
     max-width: 50px;
 }
 
-.wip {
-    padding: 10px;
-    text-align: center;
-    text-size-adjust: auto;
-    border-style: solid;
-    border-width: 1px;
-    display: flex;
-    flex-direction: column;
-}
-
-.wip h3 {
-    padding: 20px;
-    background: #060606;
-    color: #fff;
-}
-
-.wip img {
-    width: 200px;
-    height: 200px;
-    margin: auto;
-}
-
-#my-apps div {
-    margin: 15px;
-}
-
 footer {
-    font-size: 10px;
-    text-align: center;
-}
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 12px
+  }
 
 /* Media Query */
-@media screen and (max-width: 1475px) {
-    #about-me p {
-        width: 80%;
-        margin: auto;
-        padding: 20px;
+@media screen and (max-width: 1180px) {
+    .trees section {
+        display: flex;
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    ;
-
-    #contact-info p {
-        width: 80%;
-        margin: auto;
-        padding: 20px;
-    }
-
-    #my-apps div {
-        width: 80%;
-        margin: auto;
-        padding: 20px;
+    .trees section div {
+        margin: 3%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
-.contact-list {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 5%;
+@media screen and (max-width: 600px) {
+    .project-img {
+        max-width: 300px;
+    }
+
+    nav ul li a {
+        color: var(--font-color);
+        font-size: 15px;
+        padding: 7px;
+        font-family: var(--font-fam);
+        text-decoration: none;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    textarea {
+        width: 300px;
+        height: 150px;
+    }
 }
 
-.contact-list li {
-    display: inline;
+form {
+    margin-bottom: 20px;
 }
 
 .trees {
     background-image: url(./images/palm-tree-public-domain.jpg);
-    color: rgb(182, 199, 201);
-}
+    color: rgb(0, 0, 0);
 
-.trees section {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.trees section div {
-    margin: 3%;
-    width: 40%;
 }
 
 ;

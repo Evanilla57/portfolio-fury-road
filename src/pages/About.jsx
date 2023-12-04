@@ -2,7 +2,7 @@ export default function About() {
     return (
         <>
             <figure>
-                <img src="src/assets/images" alt="handsome, happy web developer" />
+                <img src="src/assets/images/profile.png" alt="handsome, happy web developer" />
             </figure>
             <h2>About Me</h2>
             <div>

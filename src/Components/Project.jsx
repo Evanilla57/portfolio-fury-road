@@ -6,7 +6,7 @@ export default function Project(props) {
             <section>
                 {projects.map((project) => (
                     <div key={project.id}>
-                        <h3>{project.title}</h3>
+                        <h4>{project.title}</h4>
                         <a href={project.href}>
                             <img
                                 src={project.src}

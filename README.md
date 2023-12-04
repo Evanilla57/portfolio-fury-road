@@ -50,6 +50,7 @@ Deployed website:
 
 - Mini-Project video demonstration created by Joshua Taylor
 - Lessons and Activities provided by Coding Boot Camp at UCR Extension
+- React Router Tutorial: https://reactrouter.com/en/main/start/tutorial
 
 ## License
 

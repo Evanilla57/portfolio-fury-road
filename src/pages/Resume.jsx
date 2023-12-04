@@ -1,13 +1,13 @@
 export default function Resume() {
     return (
         <>
-            <h1>Resume</h1>
+            <h2>Resume</h2>
             <section>
-                <h2>Professional Summary</h2>
+                <h3>Professional Summary</h3>
                 <p>
                     I am a highly motivated and hardworking individual seeking to further my
                     growth. As an aspiring web developer, I have a comprehensive understanding
-                    of html, css, Javascript, React, MERN, SQL, and NoSQL databases. I am an
+                    of HTML, CSS, Javascript, React, MERN, SQL, and NoSQL databases. I am an
                     organized and professional worker that excels in building strong, positive
                     relationships while efficiently completing my duties.
                     My goal is to strengthen my skills and maximize the success of my employer
@@ -15,7 +15,7 @@ export default function Resume() {
                 </p>
             </section>
             <section>
-                <h2>Experience</h2>
+                <h3>Experience</h3>
                 <div>
                     <h3>
                         University of Arizona Global Campus, Arizona - Academic Advisor III
@@ -39,13 +39,13 @@ export default function Resume() {
                 </div>
             </section>
             <section>
-                <h2>Education</h2>
+                <h3>Education</h3>
                 <div>
-                    <h3>California State University, San Marcos </h3>
+                    <h4>California State University, San Marcos </h4>
                     <p>
                         Bachelor of Science in Biological Sciences
                     </p>
-                    <h3>University of Californa: Riverside Extension</h3>
+                    <h4>University of Californa: Riverside Extension</h4>
                     <p>Fullstack Coding Bootcamp Certificate</p>
                 </div>
             </section>
