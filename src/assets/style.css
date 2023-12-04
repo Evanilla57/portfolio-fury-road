@@ -1,0 +1,155 @@
+/* Styling for Body/ Header */
+body {
+    background-color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 42px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    float: right;
+    font-size: 21px;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-left: 25px;
+}
+
+/* Styling for Figure */
+figure {
+    background-image: url(./images/palm-tree-public-domain.jpg);
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+#avatar {
+    height: 350px;
+    width: 275px;
+    border-radius: 100%;
+
+}
+
+/* Styling for content within Body */
+
+main {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+main h2 {
+    margin: auto;
+}
+
+#about-me p {
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+}
+
+#contact-info {
+    margin: auto;
+}
+
+#my-apps {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.refactor {
+    padding: 10px;
+    text-align: center;
+    text-size-adjust: auto;
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: column;
+}
+
+.refactor h3 {
+    padding: 10px;
+    background: #060606;
+    color: #fff;
+}
+
+.refactor img {
+    width: 450px;
+    height: 300px;
+}
+
+.wip {
+    padding: 10px;
+    text-align: center;
+    text-size-adjust: auto;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wip h3 {
+    padding: 20px;
+    background: #060606;
+    color: #fff;
+}
+
+.wip img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#my-apps div {
+    margin: 15px;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Media Query */
+@media screen and (max-width: 1475px) {
+    #about-me p {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    ;
+
+    #contact-info p {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    #my-apps div {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+}
+
+;
