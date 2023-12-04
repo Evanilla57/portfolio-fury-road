@@ -6,9 +6,9 @@ export default function Resume() {
                 <h2>Professional Summary</h2>
                 <p>
                     I am a highly motivated and hardworking individual seeking to further my
-                    growth. As an aspiring web developer, I have a comprehensive understanding 
-                    of html, css, Javascript, React, MERN, SQL, and NoSQL databases. I am an 
-                    organized and professional worker that excels in building strong, positive 
+                    growth. As an aspiring web developer, I have a comprehensive understanding
+                    of html, css, Javascript, React, MERN, SQL, and NoSQL databases. I am an
+                    organized and professional worker that excels in building strong, positive
                     relationships while efficiently completing my duties.
                     My goal is to strengthen my skills and maximize the success of my employer
                     and my peers while pursuing my own personal and professional development.
@@ -22,18 +22,18 @@ export default function Resume() {
                     </h3>
                     <ul>
                         <li>
-                        Provide daily support for fellow advisors immediate, on the floor 
-                        de-escalation support and mentorship
+                            Provide daily support for fellow advisors immediate, on the floor
+                            de-escalation support and mentorship
                         </li>
                         <li>
-                        Support the team as SME resource expert for population rules and 
-                        standard methodologies
+                            Support the team as SME resource expert for population rules and
+                            standard methodologies
                         </li>
                         <li>
-                        Use a variety of spreadsheet, word processing, database, and presentation software.
+                            Use a variety of spreadsheet, word processing, database, and presentation software.
                         </li>
                         <li>
-                        Assist in developing key performance indicators to measure program and staff performance
+                            Assist in developing key performance indicators to measure program and staff performance
                         </li>
                     </ul>
                 </div>
@@ -43,7 +43,7 @@ export default function Resume() {
                 <div>
                     <h3>California State University, San Marcos </h3>
                     <p>
-                    Bachelor of Science in Biological Sciences  
+                        Bachelor of Science in Biological Sciences
                     </p>
                     <h3>University of Californa: Riverside Extension</h3>
                     <p>Fullstack Coding Bootcamp Certificate</p>

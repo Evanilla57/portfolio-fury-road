@@ -1,10 +1,9 @@
 function Footer() {
     return (
-      <footer>
-        <p>A labor of love by me, myself, and I 🥰</p>
-      </footer>
+        <footer>
+            <p>A labor of love by me, myself, and I 🥰</p>
+        </footer>
     );
-  }
-  
-  export default Footer;
-  
+}
+
+export default Footer;
