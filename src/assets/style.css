@@ -33,7 +33,7 @@ nav li {
 
 /* Styling for Figure */
 figure {
-    background-image: url(./images/palm-tree-public-domain.jpg);
+    background-image: url(../assets/images/palm-tree-public-domain.jpg);
     background-size: cover;
     width: 100%;
     margin: auto;
