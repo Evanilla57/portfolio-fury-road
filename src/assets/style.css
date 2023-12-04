@@ -172,4 +172,22 @@ footer {
     display: inline;
 }
 
+.trees {
+    background-image: url(./images/palm-tree-public-domain.jpg);
+    color: rgb(182, 199, 201);
+}
+
+.trees section {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.trees section div {
+    margin: 3%;
+    width: 40%;
+}
+
 ;
