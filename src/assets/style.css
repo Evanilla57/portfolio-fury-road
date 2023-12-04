@@ -34,7 +34,7 @@ nav li {
 .grow {
     color: rgb(15, 43, 25);
     font-size: 25px;
-  }
+}
 
 /* Styling for Figure */
 figure {
@@ -83,7 +83,7 @@ main h2 {
     margin: 0 auto;
 }
 
-.refactor {
+.project {
     padding: 10px;
     text-align: center;
     text-size-adjust: auto;
@@ -92,15 +92,19 @@ main h2 {
     flex-direction: column;
 }
 
-.refactor h3 {
+.project h3 {
     padding: 10px;
     background: #060606;
     color: #fff;
 }
 
-.refactor img {
-    width: 450px;
-    height: 300px;
+.project-img {
+    max-width: 600px;
+    max-height: 450px;
+}
+
+.git-hub {
+    max-width: 50px;
 }
 
 .wip {
