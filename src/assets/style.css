@@ -31,6 +31,11 @@ nav li {
     margin-left: 25px;
 }
 
+.grow {
+    color: rgb(15, 43, 25);
+    font-size: 25px;
+  }
+
 /* Styling for Figure */
 figure {
     background-image: url(../assets/images/palm-tree-public-domain.jpg);
