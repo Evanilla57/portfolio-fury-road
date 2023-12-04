@@ -51,6 +51,10 @@ Deployed website:
 - Mini-Project video demonstration created by Joshua Taylor
 - Lessons and Activities provided by Coding Boot Camp at UCR Extension
 - React Router Tutorial: https://reactrouter.com/en/main/start/tutorial
+- React Styling and CSS: https://legacy.reactjs.org/docs/faq-styling.html
+- Netlify Support Forum: https://answers.netlify.com/t/my-images-are-not-showing-on-the-website-how-to-fix-the-problem/87192/9
+- Collaboration with fellow coding student, Robert Ambriz
+
 
 ## License
 
