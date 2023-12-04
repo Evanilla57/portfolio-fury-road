@@ -161,4 +161,15 @@ footer {
     }
 }
 
+.contact-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+}
+
+.contact-list li {
+    display: inline;
+}
+
 ;
